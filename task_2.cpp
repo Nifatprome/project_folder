@@ -29,8 +29,7 @@ int minimum_number_of_trips(vector< float > &v)
 int main()
 {
 
-    int n; cout<< "size: " ; cin >> n;
-    cout<< "weight:";
+    int n; cin >> n;
     vector< float > v(n);
     for(int i=0;i<n;i++) cin >> v[i];
     cout << minimum_number_of_trips(v) << endl;
